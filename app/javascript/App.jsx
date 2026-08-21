@@ -88,18 +88,18 @@ export default function App() {
     i18n.changeLanguage(currentUser?.language);
   }, [currentUser?.language]);
 
-  // Greenlight V3 brand-color theming
-  const { isLoading, data: brandColors } = useSiteSetting(['PrimaryColor', 'PrimaryColorLight']);
+  // T-Meet brand colors sampled from the supplied logo.
+  const { isLoading } = useSiteSetting(['PrimaryColor', 'PrimaryColorLight']);
 
   if (isLoading) return null;
 
-  document.documentElement.style.setProperty('--brand-color', brandColors.PrimaryColor);
-  document.documentElement.style.setProperty('--brand-color-light', brandColors.PrimaryColorLight);
-  document.documentElement.style.setProperty('--toastify-color-success', brandColors.PrimaryColor);
+  document.documentElement.style.setProperty('--brand-color', '#4169e1');
+  document.documentElement.style.setProperty('--brand-color-light', '#e8f8ff');
+  document.documentElement.style.setProperty('--toastify-color-success', '#4169e1');
 
   return (
     <>
-      <Title lang={currentUser?.language} dir={i18next.dir(currentUser?.language)}>BigBlueButton</Title>
+      <Title lang={currentUser?.language} dir={i18next.dir(currentUser?.language)}>T-Meet</Title>
       { autoSignIn
         ? (
           <Container fluid className="d-flex vh-100 justify-content-center align-items-center">

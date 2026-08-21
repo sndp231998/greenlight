@@ -10,6 +10,7 @@ esbuild.context({
   outdir: 'app/assets/builds',
   loader: {
     '.png': 'dataurl',
+    '.jpeg': 'dataurl',
     '.svg': 'text',
   },
   define: {

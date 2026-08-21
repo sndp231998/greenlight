@@ -31,7 +31,10 @@ export default function Footer() {
   return (
     <footer id="footer" className="footer background-whitesmoke text-center">
       <Container id="footer-container" className="py-3">
-        <a href="https://docs.bigbluebutton.org/greenlight/v3/install" target="_blank" rel="noreferrer">Greenlight</a>
+        <span className="fw-semibold text-brand">T-Meet</span>
+        <span className="text-muted ps-3">Support: </span>
+        <a href="mailto:support@mytufan.com">support@mytufan.com</a>
+        <a className="ps-3" href="tel:+9779816032025">+977 9816032025</a>
         { isAdmin && <span className="text-muted"> {env?.VERSION_TAG} </span> }
         { links?.Terms
           && (

@@ -18,10 +18,9 @@ import React from 'react';
 import Image from 'react-bootstrap/Image';
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
-import useSiteSetting from '../../hooks/queries/site_settings/useSiteSetting';
+import TMeetLogo from '../../../assets/images/t-meet-logo.jpeg';
 
 export default function Logo({ size }) {
-  const { isLoading, data: brandingImage } = useSiteSetting('BrandingImage');
   const navigate = useNavigate();
 
   // Logo can be small or regular size
@@ -31,14 +30,12 @@ export default function Logo({ size }) {
   // Small Logo is used in Header only and does not require a wrapper
   const sizeWrapperClass = !size ? 'logo-wrapper position-relative d-block mx-auto' : undefined;
 
-  if (isLoading) return <div className={sizeWrapperClass} />;
-
   return (
     <div className={sizeWrapperClass}>
       <Image
-        src={brandingImage}
+        src={TMeetLogo}
         className={sizeClass}
-        alt="CompanyLogo"
+        alt="T-Meet logo"
         onClick={() => { navigate('/'); }}
       />
     </div>

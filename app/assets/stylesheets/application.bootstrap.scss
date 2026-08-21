@@ -40,7 +40,8 @@ body {
 
 #navbar {
   height: $header-height;
-  background: white;
+  background: linear-gradient(90deg, #ffffff 0%, #f4fcff 100%);
+  border-bottom: 2px solid var(--brand-cyan);
 
   .navbar-toggler {
     &:active {
@@ -715,6 +716,10 @@ input[type="range"]:focus::-moz-range-thumb {
 #homepage-hero {
   margin-top: 4.5rem;
   margin-bottom: 4.5rem;
+  padding: 3rem;
+  border-radius: 10px;
+  background: linear-gradient(120deg, #e8f8ff 0%, #f7f1ff 100%);
+  border-left: 6px solid var(--brand-cyan);
 
   @include media-breakpoint-down(md) {
     margin-top: 3rem;
@@ -730,7 +735,7 @@ input[type="range"]:focus::-moz-range-thumb {
 .homepage-card-icon-circle {
   width: 50px;
   height: 50px;
-  background-color: var(--brand-color);
+  background: linear-gradient(135deg, var(--brand-cyan), var(--brand-purple));
   box-shadow: 0 0 0 8px whitesmoke;
 }
 

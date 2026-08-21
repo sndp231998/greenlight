@@ -108,15 +108,15 @@ export default function HomePage() {
       <Row className="wide-white">
         <Col lg={10}>
           <div id="homepage-hero">
-            <h1 className="my-4"> {t('homepage.welcome_bbb')} </h1>
+            <h1 className="my-4"> {t('homepage.welcome_tmeet', 'Welcome to T-Meet.')} </h1>
             <p className="text-muted fs-5">
-              {t('homepage.bigbluebutton_description')}
+              {t('homepage.platform_description', 'T-Meet is a reliable online meeting platform for classes, teams, and communities. Connect, collaborate, and share ideas in real time.')}
             </p>
             <p className="text-muted fs-5">
               {t('homepage.greenlight_description')}
             </p>
-            <a href="https://bigbluebutton.org/" className="fs-5 text-link fw-bolder">
-              {t('homepage.learn_more')}
+            <a href="mailto:support@mytufan.com" className="fs-5 text-link fw-bolder">
+              {t('homepage.contact_support', 'Contact T-Meet support')}
               <ArrowRightIcon className="hi-s ms-2" />
             </a>
           </div>
@@ -135,7 +135,7 @@ export default function HomePage() {
           <Col className="mb-3">
             <HomepageFeatureCard
               title={t('homepage.recording_title')}
-              description={t('homepage.recording_description')}
+              description={t('homepage.recording_description_tmeet', 'Record your T-Meet meetings and share them with your students for review.')}
               icon={<VideoCameraIcon className="hi-s text-white" />}
             />
           </Col>
