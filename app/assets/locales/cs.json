@@ -23,8 +23,8 @@
   "return_home": "Návrat domů",
   "created_at": "Vytvořeno v",
   "homepage": {
-    "welcome_bbb": "Vítejte v BigBlueButtonu.",
-    "greenlight_description": "Greenlight je jednoduché webové rozhraní k BigBlueButtonu web videokonferenčnímu řešení. Můžete si vytvářet vlastní místnosti nebo se připojit k existujícím pomocí krátkého odkazu."
+    "welcome_T-Meet": "Vítejte v T-Meetu.",
+    "greenlight_description": "Greenlight je jednoduché webové rozhraní k T-Meetu web videokonferenčnímu řešení. Můžete si vytvářet vlastní místnosti nebo se připojit k existujícím pomocí krátkého odkazu."
   },
   "authentication": {
     "sign_in": "Přihlásit",

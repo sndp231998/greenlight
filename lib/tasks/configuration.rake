@@ -72,9 +72,9 @@ def test_request(url)
   res = Net::HTTP.get(uri)
 
   doc = Nokogiri::XML(res)
-  failed("Could not get a valid response from BigBlueButton server - #{res}") if doc.css('returncode').text != 'SUCCESS'
+  failed("Could not get a valid response from T-Meet server - #{res}") if doc.css('returncode').text != 'SUCCESS'
 rescue StandardError => e
-  failed("Error connecting to BigBlueButton server - #{e}")
+  failed("Error connecting to T-Meet server - #{e}")
 end
 
 def passed

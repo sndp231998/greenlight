@@ -160,7 +160,7 @@ describe RecordingCreator, type: :service do
     end
 
     context 'Protectable' do
-      describe 'When BBB server protected feature is enabled' do
+      describe 'When T-Meet server protected feature is enabled' do
         let(:bbb_recording) { protected_recording }
 
         it 'returns recording protectable attribute as true' do
@@ -169,10 +169,10 @@ describe RecordingCreator, type: :service do
         end
       end
 
-      describe 'When BBB server protected feature is NOT enabled' do
+      describe 'When T-Meet server protected feature is NOT enabled' do
         let(:bbb_recording) { single_format_recording }
 
-        it 'returns recording protectable attribute as false if the bbb server protected feature is not enabled' do
+        it 'returns recording protectable attribute as false if the T-Meet  server protected feature is not enabled' do
           described_class.new(recording: bbb_recording).call
           expect(room.recordings.first.protectable).to be(false)
         end

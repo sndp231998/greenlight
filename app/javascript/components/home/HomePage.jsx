@@ -108,9 +108,9 @@ export default function HomePage() {
       <Row className="wide-white">
         <Col lg={10}>
           <div id="homepage-hero">
-            <h1 className="my-4"> {t('homepage.welcome_bbb')} </h1>
+            <h1 className="my-4"> {t('homepage.welcome_T-Meet')} </h1>
             <p className="text-muted fs-5">
-              {t('homepage.bigbluebutton_description')}
+              {t('homepage.T-Meet_description')}
             </p>
             <p className="text-muted fs-5">
               {t('homepage.greenlight_description')}

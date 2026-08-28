@@ -32,21 +32,21 @@
   "no_result_search_input": "\"{{ searchInput }}\"は見つかりませんでした",
   "action_permanent": "この操作は取り消すことができません",
   "homepage": {
-    "welcome_bbb": "BigBlueButton へようこそ",
-    "bigbluebutton_description": "BigBlueButtonは、オンライン授業に最適化された、オープンソースのウェブ会議システムです。生徒や学生が協働し、すぐにフィードバックが得られるようにすることで、より多くの時間を実践的な学びにあてることができます。",
+    "welcome_T-Meet": "T-Meet へようこそ",
+    "T-Meet_description": "T-Meetは、オンライン授業に最適化された、オープンソースのウェブ会議システムです。生徒や学生が協働し、すぐにフィードバックが得られるようにすることで、より多くの時間を実践的な学びにあてることができます。",
     "greenlight_description": "自分の会議室を作成し、会議を開いてみてください。簡単なリンクを使って手軽に他人を招待することもできます。",
-    "learn_more": "BigBlueButtonについてもっと知る",
+    "learn_more": "T-Meetについてもっと知る",
     "explore_features": "基本的な機能",
     "meeting_title": "会議を立ち上げる",
     "meeting_description": "ビデオ、音声、画面共有、チャットなど、実践的な学びに必要な全てのツールを備えた、仮想授業を立ちあげることができます。",
     "recording_title": "会議を録画する",
-    "recording_description": "BigBlueButtonの会議を録画し、それを生徒や学生と共有することで、教材を効果的に復習させることができます。",
+    "recording_description": "T-Meetの会議を録画し、それを生徒や学生と共有することで、教材を効果的に復習させることができます。",
     "settings_title": "会議室を管理する",
     "settings_description": "自分の会議室や会議方法の設定を変更し、効果的な学びの場を作り上げることができます。",
     "and_more_title": "それだけではありません",
-    "and_more_description": "BigBlueButtonには実践的な学びのためのさまざまなツールが用意されており、授業を効率的に行うことができるようデザインされています。",
+    "and_more_description": "T-Meetには実践的な学びのためのさまざまなツールが用意されており、授業を効率的に行うことができるようデザインされています。",
     "enter_meeting_url": "会議URLを入力",
-    "enter_meeting_url_instruction": "下の欄にBigBlueButtonの会議のURLを記入してください。"
+    "enter_meeting_url_instruction": "下の欄にT-Meetの会議のURLを記入してください。"
   },
   "authentication": {
     "sign_in": "サインイン",
@@ -186,7 +186,7 @@
     "protected": "保護",
     "public": "公開",
     "public_protected": "公開 / 保護",
-    "formats_help": "可能な再生方式が表示されます。選択すると、BigBlueButtonの録画が新しいタブで再生されます",
+    "formats_help": "可能な再生方式が表示されます。選択すると、T-Meetの録画が新しいタブで再生されます",
     "visibility_help": {
       "public_protected": "録画が、公開録画のページから再生可能です。公開録画のページには、会議参加のページから誰でもアクセスできます。一回限りの接続リンクを使って他人と共有することも可能です",
       "public": "録画が、公開録画のページから再生可能です。公開録画のページには、会議参加のページから誰でもアクセスできます。録画へのリンクは誰とでも共有可能です",

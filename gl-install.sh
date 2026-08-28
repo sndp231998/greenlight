@@ -106,7 +106,7 @@ main() {
 
       s)
         HOST=$OPTARG
-        if [ "$HOST" == "bbb.example.com" ]; then 
+        if [ "$HOST" == "T-Meet.example.com" ]; then 
           err "You must specify a valid FQDN (not the FQDN given in the docs)."
         fi
         ;;
@@ -118,12 +118,12 @@ main() {
         ;;
       b)
         BIGBLUEBUTTON=$OPTARG
-        if [ "$BIGBLUEBUTTON" == "bbb.example.com:SECRET" ]; then 
-          err "You must use a valid BigBlueButton server (not the one in the example)."
+        if [ "$BIGBLUEBUTTON" == "T-Meet.example.com:SECRET" ]; then 
+          err "You must use a valid T-Meet server (not the one in the example)."
         fi
 
         if [[ ! $BIGBLUEBUTTON =~ .+:.+ ]]; then
-          err "You must respect the format <hostname>:<secret> when specifying your BigBlueButton server."
+          err "You must respect the format <hostname>:<secret> when specifying your T-Meet server."
         fi
 
         IFS=: BIGBLUEBUTTON=($BIGBLUEBUTTON) IFS=' ' # Making BIGBLUEBUTTON an array, first element is the BBB hostname and the second is the BBB secret.
@@ -181,16 +181,16 @@ check_env() {
     err "Missing required ARG, You must provide the -e <EMAIL> to auto generate a certificate OR use -d to include your own files skipping issuing them by the script."
   fi
 
-  local bbb_detected_err="This deployment installs Greenlight without BigBlueButton if planning to install both on the same system then please follow https://github.com/bigbluebutton/bbb-install instead."
+  local bbb_detected_err="This deployment installs Greenlight without T-Meet if planning to install both on the same system then please follow https://github.com/bigbluebutton/bbb-install instead."
 
   # Detecting BBB on the system
   if [ "${BIGBLUEBUTTON[0]}" == "$HOST" ]; then
-    say "Your FQDN match that of the BigBlueButton server to be used, are you willing to install Greenlight with BigBlueButton on this system?"
+    say "Your FQDN match that of the T-Meet server to be used, are you willing to install Greenlight with T-Meet on this system?"
     err "$bbb_detected_err."
   fi
 
   if dpkg -l | grep -q bbb; then
-    say "BigBlueButton modules has been detected on this system!" 
+    say "T-Meet modules has been detected on this system!" 
     err "$bbb_detected_err."
   fi
 

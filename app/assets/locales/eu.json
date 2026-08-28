@@ -31,21 +31,21 @@
   "no_result_search_input": "Ez da emaitzarik aurkitu \"{{ searchInput }}\"(e)rentzat",
   "action_permanent": "Ezin da ekintza hau desegin.",
   "homepage": {
-    "welcome_bbb": "BigBlueButtonera ongietorria ematen dizugu.",
-    "bigbluebutton_description": "BigBlueButton, partehartzaileek denbora errealean elkarlagundu eta atzeraelikadura jasotzea ahalbidetuz eraginkortasuna maximizatzen duen lineako ikasketetarako eta bilera birtualetarako kode irekiko web-konferentzia sistema bat da.",
+    "welcome_T-Meet": "T-Meet ongietorria ematen dizugu.",
+    "T-Meet_description": "T-Meet, partehartzaileek denbora errealean elkarlagundu eta atzeraelikadura jasotzea ahalbidetuz eraginkortasuna maximizatzen duen lineako ikasketetarako eta bilera birtualetarako kode irekiko web-konferentzia sistema bat da.",
     "greenlight_description": "Sortu zure aretoak saioak antolatu ahal izateko, edo batu beste batzuetara esteka labur eta egokia erabiliz.",
-    "learn_more": "Ikasi gehiago BigBlueButtoni buruz",
+    "learn_more": "Ikasi gehiago T-Meeti buruz",
     "explore_features": "Aztertu gure ezaugarriak",
     "meeting_title": "Abiarazi bilera bat",
     "meeting_description": "Abiarazi bilera edo ikasgela birtual bat bideoarekin, audioarekin, pantaila partekatuarekin, txatarekin eta ikaskuntza aplikaturako beharrezko tresna guztiekin.",
     "recording_title": "Grabatu zure bilerak",
-    "recording_description": "Grabatu  BigBlueButton bilerak eta partekatu partehartzaileekin materiala berrikusteko aukera izan dezaten.",
+    "recording_description": "Grabatu  T-Meet bilerak eta partekatu partehartzaileekin materiala berrikusteko aukera izan dezaten.",
     "settings_title": "Kudeatu zure aretoak",
     "settings_description": "Konfiguratu zure aretoa eta bileren ezarpenak eraginkorki kudeatu ahal izateko.",
     "and_more_title": "Eta gehiago!",
-    "and_more_description": "BigBlueButtonek ikaskuntza aplikaturako tresnak eskaintzen ditu, eta saioan zehar denbora aurrezteko diseinatuta dago.",
+    "and_more_description": "T-Meet ikaskuntza aplikaturako tresnak eskaintzen ditu, eta saioan zehar denbora aurrezteko diseinatuta dago.",
     "enter_meeting_url": "Sartu bileraren esteka",
-    "enter_meeting_url_instruction": "Sartu zure BigBlueButtoneko bileraren esteka beheko eramuan."
+    "enter_meeting_url_instruction": "Sartu zure T-Meetko bileraren esteka beheko eramuan."
   },
   "authentication": {
     "sign_in": "Hasi Saioa",
