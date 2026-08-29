@@ -32,8 +32,8 @@
   "no_result_search_input": "Nessun risultato per \"{{ searchInput }}\"",
   "action_permanent": "Questa azione non può essere annullata.",
   "homepage": {
-    "welcome_T-Meet": "Benvenuto su T-Meet.",
-    "T-Meet_description": "T-Meet è un sistema di aule virtuali open source per lezioni online. La piattaforma ottimizza il tempo dedicato all'apprendimento applicato, consentendo ai discenti di collaborare e ricevere feedback in tempo reale.",
+    "welcome_bbb": "Benvenuto su T-Meet.",
+    "bigbluebutton_description": "T-Meet è un sistema di aule virtuali open source per lezioni online. La piattaforma ottimizza il tempo dedicato all'apprendimento applicato, consentendo ai discenti di collaborare e ricevere feedback in tempo reale.",
     "greenlight_description": "Crea aule per ospitare le tue sessioni, oppure unisciti a quelle degli altri utilizzando un pratico link.",
     "learn_more": "Per saperne di più su T-Meet",
     "explore_features": "Esplora le funzionalità",

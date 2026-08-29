@@ -23,8 +23,8 @@
   "return_home": "Návrat domů",
   "created_at": "Vytvořeno v",
   "homepage": {
-    "welcome_T-Meet": "Vítejte v T-Meetu.",
-    "greenlight_description": "Greenlight je jednoduché webové rozhraní k T-Meetu web videokonferenčnímu řešení. Můžete si vytvářet vlastní místnosti nebo se připojit k existujícím pomocí krátkého odkazu."
+    "welcome_bbb": "Vítejte v T-Meetu.",
+    "bigbluebutton_description": "T-Meet je open-source webové video konferenční řešení pro online kurzy. Platforma optimalizuje učení tím, že umožňuje spolupráci a zpětnou vazbu v reálném čase."
   },
   "authentication": {
     "sign_in": "Přihlásit",

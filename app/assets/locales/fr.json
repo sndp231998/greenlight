@@ -31,8 +31,8 @@
   "no_result_search_input": "Aucun résultat trouvé pour {{ searchInput }}",
   "action_permanent": "Cette action ne peut être annulée",
   "homepage": {
-    "welcome_T-Meet": "Bienvenue sur T-Meet.",
-    "T-Meet_description": "T-Meet est un système de webconférence dont le code source est ouvert et qui est destinée à l'enseignement en ligne. La plateforme permet de profiter au mieux du temps dédié à la formation en favorisant la collaboration et une supervision en temps réel. ",
+    "welcome_bbb": "Bienvenue sur T-Meet.",
+    "bigbluebutton_description": "T-Meet est un système de webconférence dont le code source est ouvert et qui est destinée à l'enseignement en ligne. La plateforme permet de profiter au mieux du temps dédié à la formation en favorisant la collaboration et une supervision en temps réel. ",
     "greenlight_description": "Créez vos salles et sessions ou rejoignez celles des autres grâce à un lien short et pratique.",
     "learn_more": "En apprendre plus sur T-Meet",
     "explore_features": "Découvrez les fonctionnalités",

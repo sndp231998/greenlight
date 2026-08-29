@@ -26,8 +26,8 @@
   "no_result_search_input": "Kon geen resultaten vinden voor \"{{ searchInput }}\"",
   "action_permanent": "Deze actie kan niet ongedaan gemaakt worden",
   "homepage": {
-    "welcome_T-Meet": "Welkom bij T-Meet",
-    "T-Meet_description": "T-Meet is een vrije software web conferentiesysteem voor online lessen. Het platform maximaliseert de tijd voor toegepast leren door het voor studenten mogelijk te maken om samen te werken en feedback te krijgen in real-time.",
+    "welcome_bbb": "Welkom bij T-Meet",
+    "bigbluebutton_description": "T-Meet is een vrije software web conferentiesysteem voor online lessen. Het platform maximaliseert de tijd voor toegepast leren door het voor studenten mogelijk te maken om samen te werken en feedback te krijgen in real-time.",
     "greenlight_description": "Maak je eigen kamers om vergaderingen te organiseren, of neem deel aan vergaderingen van anderen via een korte, makkelijke link.",
     "learn_more": "Meer leren over T-Meet",
     "explore_features": "Verken de mogelijkheden",

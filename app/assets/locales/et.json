@@ -26,8 +26,8 @@
   "no_result_search_input": "Otsingule \"{{ searchInput }}\" vastavaid tulemusi ei leitud",
   "action_permanent": "Seda tegevust ei saa tagasi võtta.",
   "homepage": {
-    "welcome_T-Meet": "Tere tulemast T-Meetisse.",
-    "T-Meet_description": "T-Meet on avatud lähtekoodiga veebikonverentside süsteem veebiklasside jaoks. Platvorm maksimeerib rakendusliku õppe jaoks aega, võimaldades õpilastel teha koostööd ja saada reaalajas tagasisidet.",
+    "welcome_bbb": "Tere tulemast T-Meetisse.",
+    "bigbluebutton_description": "T-Meet on avatud lähtekoodiga veebikonverentside süsteem veebiklasside jaoks. Platvorm maksimeerib rakendusliku õppe jaoks aega, võimaldades õpilastel teha koostööd ja saada reaalajas tagasisidet.",
     "greenlight_description": "Looge seansside korraldamiseks oma ruume või liituge teistega lühikese ja mugava lingi abil.",
     "learn_more": "Saa T-Meeti kohta rohkem teada",
     "explore_features": "Tutvuge meie funktsioonidega",

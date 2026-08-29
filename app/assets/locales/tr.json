@@ -32,8 +32,8 @@
   "no_result_search_input": "\"{{ searchInput }}\" için herhangi bir sonuç bulunamadı",
   "action_permanent": "Bu işlem geri alınamaz.",
   "homepage": {
-    "welcome_T-Meet": "T-Meet uygulamasına hoş geldiniz.",
-    "T-Meet_description": "T-Meet, çevrim içi sınıflar için açık kaynaklı bir internet konferansı sistemidir. Platform, öğrencilerin gerçek zamanlı olarak işbirliği yapmalarını ve geri bildirim almalarını sağlayarak uygulamalı öğrenme zamanının en iyi şekilde kullanılmasını sağlar.",
+    "welcome_bbb": "T-Meet uygulamasına hoş geldiniz.",
+    "bigbluebutton_description": "T-Meet, çevrim içi sınıflar için açık kaynaklı bir internet konferansı sistemidir. Platform, öğrencilerin gerçek zamanlı olarak işbirliği yapmalarını ve geri bildirim almalarını sağlayarak uygulamalı öğrenme zamanının en iyi şekilde kullanılmasını sağlar.",
     "greenlight_description": "Oturumları başlatmak için kendi odalarınızı oluşturun ya da kısa ve kullanışlı bir bağlantı ile başkalarının odalarına katılın.",
     "learn_more": "T-Meet hakkında ayrıntılı bilgi alın",
     "explore_features": "Özelliklerimizi keşfedin",

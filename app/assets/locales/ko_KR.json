@@ -31,8 +31,8 @@
   "no_result_search_input": "\"{{ searchInput }}\"에 대한 결과를 찾을 수 없습니다.",
   "action_permanent": "이 작업은 실행 취소할 수 없습니다.",
   "homepage": {
-    "welcome_T-Meet": "T-Meet에 오신 것을 환영합니다.",
-    "T-Meet_description": "T-Meet은 온라인 수업을 위한 오픈 소스 웹 회의 시스템입니다. 이 플랫폼은 학생들이 실시간으로 협업하고 피드백을 받을 수 있도록 함으로써 응용 학습 시간을 극대화합니다.",
+    "welcome_bbb": "T-Meet에 오신 것을 환영합니다.",
+    "bigbluebutton_description": "T-Meet은 온라인 수업을 위한 오픈 소스 웹 회의 시스템입니다. 이 플랫폼은 학생들이 실시간으로 협업하고 피드백을 받을 수 있도록 함으로써 응용 학습 시간을 극대화합니다.",
     "greenlight_description": "세션을 호스트할 자신의 룸을 만들거나 짧고 편리한 연결을 사용하여 다른 룸에 참여합니다.",
     "learn_more": "T-Meet에 대해 자세히 알아보기",
     "explore_features": "당사의 기능을 살펴보십시오",

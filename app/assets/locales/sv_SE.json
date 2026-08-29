@@ -27,7 +27,7 @@
   "action_permanent": "Denna åtgärd kan inte ångras.",
   "homepage": {
     "welcome_bbb": "Välkommen till T-Meet.",
-    "T-Meet_description": "T-Meet är ett webbkonferenssystem med öppen källkod för online klasser. Plattformen maximerar tiden för tillämpat lärande genom att göra det möjligt för studenter att samarbeta och få feedback i realtid.",
+    "bigbluebutton_description": "T-Meet är ett webbkonferenssystem med öppen källkod för online klasser. Plattformen maximerar tiden för tillämpat lärande genom att göra det möjligt för studenter att samarbeta och få feedback i realtid.",
     "greenlight_description": "Skapa dina egna rum för att hantera dina sessioner, eller gå med i andra med hjälp av en kort och bekväm länk.",
     "learn_more": "Läs mer om T-Meet",
     "explore_features": "Läs mer om T-Meet",

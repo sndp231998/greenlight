@@ -31,8 +31,8 @@
   "no_result_search_input": "No se encontraron resultados para \"{{ searchInput }}\"",
   "action_permanent": "Esta acción no se puede deshacer.",
   "homepage": {
-    "welcome_T-Meet": "Te damos la bienvenida a T-Meet.",
-    "T-Meet_description": "T-Meet es un sistema de videoconferencia web de código abierto para cursos en línea. La plataforma optimiza el aprendizaje permitiendo la colaboración y la retroalimentación en tiempo real.",
+    "welcome_bbb": "Te damos la bienvenida a T-Meet.",
+    "bigbluebutton_description": "T-Meet es un sistema de videoconferencia web de código abierto para cursos en línea. La plataforma optimiza el aprendizaje permitiendo la colaboración y la retroalimentación en tiempo real.",
     "greenlight_description": "Cree sus propias salas para realizar sesiones o únase a otras utilizando un enlace corto y conveniente.",
     "learn_more": "Aprende más sobre T-Meet",
     "explore_features": "Explora nuestras características",

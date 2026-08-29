@@ -31,8 +31,8 @@
   "no_result_search_input": "Ez da emaitzarik aurkitu \"{{ searchInput }}\"(e)rentzat",
   "action_permanent": "Ezin da ekintza hau desegin.",
   "homepage": {
-    "welcome_T-Meet": "T-Meet ongietorria ematen dizugu.",
-    "T-Meet_description": "T-Meet, partehartzaileek denbora errealean elkarlagundu eta atzeraelikadura jasotzea ahalbidetuz eraginkortasuna maximizatzen duen lineako ikasketetarako eta bilera birtualetarako kode irekiko web-konferentzia sistema bat da.",
+    "welcome_bbb": "T-Meet ongietorria ematen dizugu.",
+    "bigbluebutton_description": "T-Meet, partehartzaileek denbora errealean elkarlagundu eta atzeraelikadura jasotzea ahalbidetuz eraginkortasuna maximizatzen duen lineako ikasketetarako eta bilera birtualetarako kode irekiko web-konferentzia sistema bat da.",
     "greenlight_description": "Sortu zure aretoak saioak antolatu ahal izateko, edo batu beste batzuetara esteka labur eta egokia erabiliz.",
     "learn_more": "Ikasi gehiago T-Meeti buruz",
     "explore_features": "Aztertu gure ezaugarriak",

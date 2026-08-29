@@ -32,8 +32,8 @@
   "no_result_search_input": "Nincs találat a következőre: „{{ searchInput }}”",
   "action_permanent": "Ez a művelet nem vonható vissza.",
   "homepage": {
-    "welcome_T-Meet": "Üdvözli a T-Meet.",
-    "T-Meet_description": "A T-Meet egy nyílt forráskódú webes konferencia-rendszer online órákhoz. A platform maximalizálja a tanulásra fordított időt azáltal, hogy lehetővé teszi, hogy a tanulók együttműködjenek és valós idejű visszajelzést kapjanak.",
+    "welcome_bbb": "Üdvözli a T-Meet.",
+    "bigbluebutton_description": "A T-Meet egy nyílt forráskódú webes konferencia-rendszer online órákhoz. A platform maximalizálja a tanulásra fordított időt azáltal, hogy lehetővé teszi, hogy a tanulók együttműködjenek és valós idejű visszajelzést kapjanak.",
     "greenlight_description": "Hozza létre a saját szobáit, hogy munkameneteket hozzon létre, vagy csatlakozzon másokhoz egy rövid és kényelmes hivatkozással",
     "learn_more": "Tudjon meg többet a T-Meetről",
     "explore_features": "Fedezze fel a funkcióinkat",

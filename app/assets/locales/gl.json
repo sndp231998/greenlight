@@ -31,8 +31,8 @@
   "no_result_search_input": "Non foi posíbel atopar ningún resultado para «{{ searchInput }}»",
   "action_permanent": "Esta acción non se pode desfacer.",
   "homepage": {
-    "welcome_T-Meet": "Dámoslle a benvida a T-Meet!",
-    "T-Meet_description": "T-Meet é un sistema de conferencias web de código aberto para clases en liña. A plataforma maximiza o tempo para a aprendizaxe aplicada ao permitir que o alumnado colabore e reciba comentarios en tempo real.",
+    "welcome_bbb": "Dámoslle a benvida a T-Meet!",
+    "bigbluebutton_description": "T-Meet é un sistema de conferencias web de código aberto para clases en liña. A plataforma maximiza o tempo para a aprendizaxe aplicada ao permitir que o alumnado colabore e reciba comentarios en tempo real.",
     "greenlight_description": "Cree as súas propias salas para organizar sesións ou xúntese con outras persoas mediante unha ligazón breve e cómoda.",
     "learn_more": "Saiba máis sobre T-Meet",
     "explore_features": "Coñeza as nosas características",

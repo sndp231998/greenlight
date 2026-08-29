@@ -31,8 +31,8 @@
   "no_result_search_input": "找不到\\\"{{ searchInput }}\\\"的任何結果",
   "action_permanent": "此操作無法撤銷",
   "homepage": {
-    "welcome_T-Meet": "歡迎使用 T-Meet",
-    "T-Meet_description": "T-Meet 是一個針對線上課程優化的開源網路會議系統。透過學生間的協作和即時的回饋，能夠將更多時間投入實際的學習中。",
+    "welcome_bbb": "歡迎使用 T-Meet",
+    "bigbluebutton_description": "T-Meet 是一個針對線上課程優化的開源網路會議系統。透過學生間的協作和即時的回饋，能夠將更多時間投入實際的學習中。",
     "greenlight_description": "建立您自己的會議室，主持會議，或使用簡短便捷的連結加入其他人的會議。",
     "learn_more": "了解更多關於 T-Meet",
     "explore_features": "探索我們的功能",

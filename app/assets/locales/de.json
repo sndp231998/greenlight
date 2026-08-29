@@ -31,8 +31,8 @@
   "no_result_search_input": "Es konnten keine Ergebnisse für \"{{ searchInput }}\" gefunden werden",
   "action_permanent": "Diese Aktion kann nicht rückgängig gemacht werden.",
   "homepage": {
-    "welcome_T-Meet": "Willkommen in T-Meet.",
-    "T-Meet_description": "T-Meet ist ein Open-Source-Webkonferenzsystem für Online-Kurse. Die Plattform optimiert das Lernen, indem sie es ermöglicht, zusammenzuarbeiten und Feedback in Echtzeit zu erhalten.",
+    "welcome_bbb": "Willkommen in T-Meet.",
+    "bigbluebutton_description": "T-Meet ist ein Open-Source-Webkonferenzsystem für Online-Kurse. Die Plattform optimiert das Lernen, indem sie es ermöglicht, zusammenzuarbeiten und Feedback in Echtzeit zu erhalten.",
     "greenlight_description": "Erstelle mit ihr eigene Räume, um Konferenzen abzuhalten, oder tritt über einen kurzen und bequemen Link einer bestehenden bei.",
     "learn_more": "Erfahre mehr über T-Meet",
     "explore_features": "Entdecke unsere Features",
