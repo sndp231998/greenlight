@@ -52,3 +52,6 @@
 
 # Ignore environment configuration.
 .env*
+
+# Ignore local docker-compose overrides.
+docker-compose.override.yml
