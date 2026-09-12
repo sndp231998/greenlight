@@ -33,7 +33,7 @@ export default function Footer() {
       <Container id="footer-container" className="py-3">
         <span className="fw-semibold text-brand">T-Meet</span>
         <span className="text-muted ps-3">Support: </span>
-        <a href="mailto:support@mytufan.com">support@mytufan.com</a>
+        <a href="mailto:support@tsaedu.com">support@tsaedu.com</a>
         <a className="ps-3" href="tel:+9779816032025">+977 9816032025</a>
         { isAdmin && <span className="text-muted"> {env?.VERSION_TAG} </span> }
         { links?.Terms

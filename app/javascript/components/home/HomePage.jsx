@@ -115,7 +115,7 @@ export default function HomePage() {
             <p className="text-muted fs-5">
               {t('homepage.greenlight_description')}
             </p>
-            <a href="mailto:support@mytufan.com" className="fs-5 text-link fw-bolder">
+            <a href="mailto:support@tsaedu.com" className="fs-5 text-link fw-bolder">
               {t('homepage.contact_support', 'Contact T-Meet support')}
               <ArrowRightIcon className="hi-s ms-2" />
             </a>
