@@ -40,7 +40,7 @@ body {
 
 #navbar {
   height: $header-height;
-  background: linear-gradient(90deg, #ffffff 0%, #f4fcff 100%);
+  background: white;
   border-bottom: 2px solid var(--brand-cyan);
 
   .navbar-toggler {
