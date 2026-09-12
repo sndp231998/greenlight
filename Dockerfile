@@ -17,7 +17,8 @@ ENV VERSION_TAG=$VERSION_TAG
 ENV PATH=$PATH:$RAILS_ROOT/bin
 WORKDIR $RAILS_ROOT
 RUN bundle config --local deployment 'true' \
-    && bundle config --local without 'development:test'
+    && bundle config --local without 'development:test' \
+    && bundle config set frozen false
 
 FROM base AS build
 
@@ -25,6 +26,7 @@ ARG PACKAGES='alpine-sdk libpq-dev'
 COPY Gemfile Gemfile.lock ./
 RUN apk update \
     && apk add --update --no-cache ${PACKAGES} \
+    && bundle config set frozen false \
     && bundle install --no-cache \
     && bundle doctor
 
