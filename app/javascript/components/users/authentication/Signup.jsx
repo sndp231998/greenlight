@@ -20,6 +20,7 @@ import { Navigate, Link, useSearchParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { toast } from 'react-toastify';
 import SignupForm from './forms/SignupForm';
+import GoogleAuthButton from './GoogleAuthButton';
 import Logo from '../../shared_components/Logo';
 import useSiteSetting from '../../../hooks/queries/site_settings/useSiteSetting';
 import useEnv from '../../../hooks/queries/env/useEnv';
@@ -55,6 +56,7 @@ export default function Signup() {
       <Card className="col-xl-5 col-lg-6 col-md-8 col-10 mx-auto p-4 border-0 card-shadow">
         <Card.Title className="text-center pb-2"> { t('authentication.create_an_account') } </Card.Title>
         <SignupForm invitation={invitation} />
+        <GoogleAuthButton />
         <span className="text-center text-muted small"> { t('authentication.already_have_account') }
           <Link to="/signin" className="text-link"> { t('authentication.sign_in') } </Link>
         </span>

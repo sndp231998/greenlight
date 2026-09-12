@@ -95,6 +95,11 @@ module Api
 
         !Tenant.exists?(name: current_provider, client_secret: 'local')
       end
+
+      # Checks if "Continue with Google" is configured
+      def google_auth_enabled?
+        ENV['GOOGLE_CLIENT_ID'].present?
+      end
     end
   end
 end

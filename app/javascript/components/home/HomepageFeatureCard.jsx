@@ -25,7 +25,7 @@ export default function HomepageFeatureCard({ title, description, icon }) {
         <div className="homepage-card-icon-circle rounded-circle mb-4 d-flex align-items-center justify-content-center">
           { icon }
         </div>
-        <Card.Title className="pt-2"> { title } </Card.Title>
+        <Card.Title as="h3" className="fs-5 pt-2"> { title } </Card.Title>
         <Card.Text className="text-muted"> { description } </Card.Text>
       </Card.Body>
     </Card>

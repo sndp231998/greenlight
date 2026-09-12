@@ -19,6 +19,7 @@ import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SigninForm from './forms/SigninForm';
+import GoogleAuthButton from './GoogleAuthButton';
 import Logo from '../../shared_components/Logo';
 import useSiteSetting from '../../../hooks/queries/site_settings/useSiteSetting';
 
@@ -34,6 +35,7 @@ export default function SignIn() {
       <Card className="col-xl-5 col-lg-6 col-md-8 col-10 mx-auto p-4 border-0 card-shadow">
         <Card.Title className="text-center pb-2"> { t('authentication.sign_in') } </Card.Title>
         <SigninForm />
+        <GoogleAuthButton />
         { registrationMethod !== 'invite' && (
         <span className="text-center text-muted small"> { t('authentication.dont_have_account') }
           <Link to="/signup" className="text-link"> { t('authentication.sign_up') } </Link>

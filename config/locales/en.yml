@@ -47,7 +47,7 @@
 
 en:
   opengraph:
-    description: Learn using BigBlueButton, the trusted open-source web conferencing solution that enables seamless virtual collaboration and online learning experiences.
+    description: T-Meet is a reliable online meeting platform for classes, teams, and communities. Host video meetings, share your screen, record sessions, and collaborate in real time — no downloads required.
   meeting:
     moderator_message: "To invite someone to the meeting, send them this link:"
     access_code: "Access Code: %{code}"

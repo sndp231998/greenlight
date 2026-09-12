@@ -26,6 +26,7 @@ module Api
       def index
         render_data data: {
           EXTERNAL_AUTH: external_auth?,
+          GOOGLE_AUTH_ENABLED: google_auth_enabled?,
           HCAPTCHA_KEY: ENV.fetch('HCAPTCHA_SITE_KEY', nil),
           VERSION_TAG: ENV.fetch('VERSION_TAG', ''),
           CURRENT_PROVIDER: current_provider,

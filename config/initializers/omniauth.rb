@@ -20,6 +20,17 @@ Rails.application.config.middleware.use OmniAuth::Builder do
   issuer = ENV.fetch('OPENID_CONNECT_ISSUER', '')
   lb = ENV.fetch('LOADBALANCER_ENDPOINT', '')
 
+  # "Continue with Google" sign-in/sign-up.
+  # Inactive until GOOGLE_CLIENT_ID / GOOGLE_CLIENT_SECRET are set (see sample.env).
+  if ENV['GOOGLE_CLIENT_ID'].present?
+    provider :google_oauth2,
+             ENV.fetch('GOOGLE_CLIENT_ID'),
+             ENV.fetch('GOOGLE_CLIENT_SECRET'),
+             scope: 'email,profile',
+             image_aspect_ratio: 'square',
+             image_size: 320
+  end
+
   if lb.present?
     provider :openid_connect, setup: lambda { |env|
       request = Rack::Request.new(env)

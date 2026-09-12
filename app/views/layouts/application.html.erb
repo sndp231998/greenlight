@@ -17,12 +17,38 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>BigBlueButton</title>
+    <title><%= page_title %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="<%= meta_description %>" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="<%= request.original_url.split('?').first %>" />
+
     <!-- Open Graph Attributes -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%= request.original_url.split('?').first %>" />
+    <meta property="og:site_name" content="T-Meet" />
     <meta property="og:title" content="<%= page_title %>" />
-    <meta property="og:description" content="<%= t('opengraph.description') %>" />
+    <meta property="og:description" content="<%= meta_description %>" />
     <meta property="og:image" content="<%= branding_image %>" />
+
+    <!-- Twitter Card Attributes -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="<%= page_title %>" />
+    <meta name="twitter:description" content="<%= meta_description %>" />
+    <meta name="twitter:image" content="<%= branding_image %>" />
+
+    <script type="application/ld+json">
+      <%= raw({
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "T-Meet",
+        "alternateName": ["Tmeet", "T Meet"],
+        "url": root_url,
+        "applicationCategory": "CommunicationApplication",
+        "operatingSystem": "Web",
+        "description": meta_description,
+      }.to_json) %>
+    </script>
 
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>

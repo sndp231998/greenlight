@@ -33,7 +33,7 @@
   "action_permanent": "This action cannot be undone.",
   "homepage": {
   "welcome_tmeet": "Welcome to T-Meet.",
-  "platform_description": "T-Meet is a reliable online meeting platform for classes, teams, and communities. Connect, collaborate, and share ideas in real time.",
+  "platform_description": "T-Meet (Tmeet) is a reliable, browser-based video meeting platform for classes, teams, and communities. Host video calls, share your screen, and collaborate in real time — no downloads required.",
   "contact_support": "Contact T-Meet support",
   "recording_description_tmeet": "Record your T-Meet meetings and share them with your students for review.",
     "welcome_bbb": "Welcome to T-Meet.",
@@ -53,6 +53,7 @@
     "enter_meeting_url_instruction": "Please enter the URL of your T-Meet meeting in the field below."
   },
   "authentication": {
+    "continue_with_google": "Continue with Google",
     "sign_in": "Sign In",
     "sign_up": "Sign Up",
     "sign_out": "Sign Out",

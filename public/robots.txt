@@ -1,1 +1,11 @@
 # See https://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /profile
+Disallow: /rooms
+Disallow: /reset_password
+Disallow: /activate_account
+
+Sitemap: https://tmeet.tsaedu.com/sitemap.xml
