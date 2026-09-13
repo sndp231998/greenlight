@@ -19,7 +19,7 @@ services:
 
   greenlight-v3:
     entrypoint: [bin/start]
-    image: bigbluebutton/greenlight:v3
+    image: greenlight-custom:production
     container_name: greenlight-v3
     restart: unless-stopped
     env_file: .env
