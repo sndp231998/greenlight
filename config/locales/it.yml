@@ -47,27 +47,27 @@
 
 it:
   opengraph:
-    description: "Impara utilizzando BigBlueButton, la soluzione affidabile di videoconferenza open source che consente una collaborazione virtuale fluida e un'esperienza di apprendimento online senza interruzioni."
+    description: "Impara utilizzando T-Meet, la soluzione affidabile di videoconferenza open source che consente una collaborazione virtuale fluida e un'esperienza di apprendimento online senza interruzioni."
   meeting:
     moderator_message: "Per invitare qualcuno a partecipare, inviagli questo collegamento: "
     access_code: "Codice Accesso: %{code}"
   email:
     activation:
       account_activation: Attivazione utente
-      welcome_to_bbb: Benvenuti su BigBlueButton!
+      welcome_to_bbb: Benvenuti su T-Meet!
       get_started: "Per iniziare, attiva la tua utenza facendo clic sul pulsante in basso."
       activate_account: Attiva utenza
       link_expires: Il collegamento scadrà tra 24 ore.
       if_link_expires: "Se il collegamento scade, effettua l'accesso e richiedi una nuova email di attivazione"
     invitation:
-      invitation_to_join: Invito BigBlueButton
-      you_have_been_invited: "Sei stato invitato a creare un'utenza BigBlueButton da %{name}."
+      invitation_to_join: Invito T-Meet
+      you_have_been_invited: "Sei stato invitato a creare un'utenza T-Meet da %{name}."
       get_started: "Per iscriverti, fai clic sul pulsante qui sotto e segui i passaggi."
       valid_invitation: L'invito è valido per 7 giorni.
       sign_up: Iscriviti
     new_user_signup:
-      new_user: Nuova iscrizione utente BigBlueButton
-      new_user_description: Un nuovo utente si è iscritto per utilizzare BigBlueButton.
+      new_user: Nuova iscrizione utente T-Meet
+      new_user_description: Un nuovo utente si è iscritto per utilizzare T-Meet.
       name: "Nome: %{name}"
       email: "Email: %{email}"
       admin_panel: "Pannello di amministrazione"
