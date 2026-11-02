@@ -18,7 +18,7 @@ import React from 'react';
 import Image from 'react-bootstrap/Image';
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
-import TMeetLogo from '../../../assets/images/t-meet-logo.jpeg';
+import TMeetLogo from '../../../assets/images/t-meet-logo.png';
 
 export default function Logo({ size }) {
   const navigate = useNavigate();
