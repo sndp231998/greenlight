@@ -109,7 +109,7 @@ export default function HomePage() {
 
   return (
     <>
-      <Row id="homepage-hero" className="align-items-center gy-5">
+      <Row id="homepage-hero" className="align-items-center">
         <Col lg={6}>
           <span className="homepage-eyebrow">{t('homepage.eyebrow', 'Online classes & meetings')}</span>
           <h1 className="homepage-title mt-3 mb-4">
@@ -125,7 +125,7 @@ export default function HomePage() {
             <li><CheckCircleIcon className="hi-s" />{t('homepage.check_support', 'Local support when you need it')}</li>
           </ul>
         </Col>
-        <Col lg={6}>
+        <Col lg={6} className="mt-5 mt-lg-0">
           <MeetingPreview />
         </Col>
       </Row>

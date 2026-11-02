@@ -780,6 +780,10 @@ input[type="range"]:focus::-moz-range-thumb {
   border-radius: 14px;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 
+  .card-title {
+    font-weight: 600;
+  }
+
   &:hover {
     transform: translateY(-3px);
     box-shadow: 0 12px 24px -8px rgba(16, 24, 40, 0.18) !important;
